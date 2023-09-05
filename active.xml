@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+">
+        <bean id="main" class="Stadium">
+		<property name="name" value="National Stadium"/>
+		<property name="ticketPrice" value="200" />
+	</bean>
+	
+	<bean id="practice" class="Stadium">
+		<property name="name" value="Thep" />
+		<property name="ticketPrice" value="0" />
+	</bean>
+	
+	<bean id="northern" class="Stadium">
+		<property name="name" value="Chiang Mai 700" />
+		<property name="ticketPrice" value="150" />
+	</bean>
+</beans>
